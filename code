@@ -1,3 +1,8 @@
+import java.util.Scanner;
+
+public class _076_BuildsARoute {
+
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 	    String start = scan.next();
 	    String end = scan.next();
@@ -34,3 +39,8 @@
 
 			System.out.print(": " + end.toUpperCase() + " found");
 		}
+     
+
+	}
+
+}
