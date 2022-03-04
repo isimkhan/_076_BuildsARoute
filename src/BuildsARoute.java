@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class _076_BuildsARoute {
+public class BuildsARoute {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-	    String start = scan.next();
-	    String end = scan.next();
-
+		String start = scan.next();
+		String end = scan.next();
+		 
 		String result = "";
 		String[] route = { "right", "down", "left", "up" };
 
@@ -39,7 +39,6 @@ public class _076_BuildsARoute {
 
 			System.out.print(": " + end.toUpperCase() + " found");
 		}
-     
 
 	}
 
